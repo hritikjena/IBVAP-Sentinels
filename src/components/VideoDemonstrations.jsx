@@ -92,7 +92,7 @@ const VideoDemonstrations = () => {
               muted
               className="demo-video" 
             >
-              <source src={activeVideo.src} type="video/mp4" />
+              <source src={`${import.meta.env.BASE_URL}${activeVideo.src.startsWith('/') ? activeVideo.src.slice(1) : activeVideo.src}`} type="video/mp4" />
               Your browser does not support the video tag.
             </video> 
           </div>
