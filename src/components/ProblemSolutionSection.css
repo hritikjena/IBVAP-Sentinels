@@ -1,0 +1,134 @@
+.problem-solution {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.comparison-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .comparison-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.comparison-card {
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.ibvap-card {
+  border: 1px solid var(--accent-cyan);
+  background: rgba(6, 182, 212, 0.05);
+  box-shadow: 0 0 30px rgba(6, 182, 212, 0.1);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card-header h3 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.badge {
+  background: rgba(6, 182, 212, 0.2);
+  color: var(--accent-cyan);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: auto;
+}
+
+.flow-visual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.flow-node {
+  background: var(--bg-panel-solid);
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  border: 1px solid var(--border-subtle);
+  width: 100%;
+  text-align: center;
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.flow-arrow {
+  opacity: 0.5;
+}
+
+.old-flow .human-node {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.old-flow .danger-node {
+  border-color: var(--accent-red);
+  color: var(--accent-red);
+  background: rgba(239, 68, 68, 0.1);
+}
+
+.modern-flow .highlight {
+  border-color: var(--accent-cyan);
+  color: var(--accent-cyan);
+}
+
+.modern-flow .alert-node {
+  border-color: var(--accent-yellow);
+  color: var(--accent-yellow);
+  background: rgba(234, 179, 8, 0.1);
+  box-shadow: 0 0 15px rgba(234, 179, 8, 0.2);
+}
+
+.problem-list, .benefit-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.problem-list li, .benefit-list li {
+  position: relative;
+  padding-left: 1.5rem;
+  color: var(--text-muted);
+}
+
+.problem-list li::before {
+  content: '✕';
+  position: absolute;
+  left: 0;
+  color: var(--accent-red);
+  font-weight: bold;
+}
+
+.benefit-list li {
+  color: var(--text-main);
+}
+
+.benefit-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--accent-cyan);
+  font-weight: bold;
+}
