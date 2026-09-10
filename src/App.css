@@ -57,3 +57,23 @@ section {
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 768px) {
+  .app-container {
+    gap: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  section {
+    padding: 2rem 1rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .section-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+}

@@ -84,3 +84,31 @@
 .log-event {
   color: var(--text-main);
 }
+
+@media (max-width: 768px) {
+  .temporal-card {
+    padding: 1.5rem;
+  }
+  
+  .baseline-visual {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .baseline-box {
+    width: 100%;
+  }
+  
+  .timeline-log {
+    padding: 1rem;
+  }
+  
+  .log-entry {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .log-time {
+    font-size: 0.85rem;
+  }
+}

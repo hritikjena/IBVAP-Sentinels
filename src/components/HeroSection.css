@@ -136,3 +136,36 @@
   letter-spacing: 0.05em;
   font-family: var(--font-mono);
 }
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .hero-tagline {
+    font-size: 1.4rem;
+  }
+  
+  .hero-description {
+    font-size: 1rem;
+  }
+  
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 1rem;
+  }
+  
+  .btn-primary, .btn-secondary, .btn-outline {
+    width: 100%;
+  }
+  
+  .capability-indicators {
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+}

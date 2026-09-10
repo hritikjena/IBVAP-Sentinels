@@ -129,3 +129,22 @@
 .arch-arrow {
   opacity: 0.8;
 }
+
+@media (max-width: 768px) {
+  .architecture-container {
+    padding: 1.5rem 1rem;
+  }
+  
+  .block-columns {
+    grid-template-columns: 1fr;
+  }
+  
+  .block-col:first-child {
+    border-right: none;
+    border-bottom: 1px solid var(--accent-cyan);
+  }
+  
+  .block-grid, .block-grid.col-2 {
+    grid-template-columns: 1fr;
+  }
+}

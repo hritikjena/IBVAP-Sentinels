@@ -89,3 +89,22 @@
   font-size: 1.1rem;
   color: var(--text-main);
 }
+
+@media (max-width: 768px) {
+  .alert-box-header h2 {
+    font-size: 1.5rem;
+  }
+  
+  .alert-box-body {
+    padding: 1.5rem;
+  }
+  
+  .alert-meta-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .reasons-list li {
+    font-size: 1rem;
+  }
+}
