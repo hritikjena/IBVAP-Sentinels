@@ -90,6 +90,7 @@ const VideoDemonstrations = () => {
               controls 
               autoPlay
               muted
+              playsInline
               className="demo-video" 
             >
               <source src={`${import.meta.env.BASE_URL}${activeVideo.src.startsWith('/') ? activeVideo.src.slice(1) : activeVideo.src}`} type="video/mp4" />
