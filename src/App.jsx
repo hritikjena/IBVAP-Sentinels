@@ -31,6 +31,9 @@ function App() {
           <p>
             <strong>WatchGrid</strong> transforms existing CCTV infrastructure into an intelligent, context-aware surveillance network designed to improve situational awareness and accelerate security response.
           </p>
+          <p style={{ marginTop: '1rem', fontSize: '0.85em', opacity: 0.7 }}>
+            &copy; {new Date().getFullYear()} Team CHASKA License. All rights reserved.
+          </p>
         </div>
       </footer>
     </div>
