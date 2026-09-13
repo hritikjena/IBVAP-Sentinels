@@ -9,7 +9,7 @@ const HeroSection = () => {
       
       <div className="container hero-content">
         <div className="hero-brand">
-          <h1 className="hero-title text-cyan">IBVAP</h1>
+          <h1 className="hero-title text-cyan">WatchGrid</h1>
           <h2 className="hero-subtitle">Intelligent Border Video Analytics Platform</h2>
         </div>
         

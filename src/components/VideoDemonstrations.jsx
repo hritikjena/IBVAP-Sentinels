@@ -75,9 +75,9 @@ const VideoDemonstrations = () => {
   return (
     <section id="video-demos" className="video-demos-section container">
       <div className="section-header">
-        <h2 className="section-title">See IBVAP in Action</h2>
+        <h2 className="section-title">See WatchGrid in Action</h2>
         <p className="section-subtitle">
-          Real-world scenarios demonstrating how IBVAP converts raw video into actionable intelligence.
+          Real-world scenarios demonstrating how WatchGrid converts raw video into actionable intelligence.
         </p>
       </div>
 

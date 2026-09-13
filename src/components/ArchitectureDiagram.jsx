@@ -8,7 +8,7 @@ const ArchitectureDiagram = () => {
       <div className="section-header">
         <h2 className="section-title">System Architecture</h2>
         <p className="section-subtitle">
-          How IBVAP processes video streams in real-time without dedicated hardware.
+          How WatchGrid processes video streams in real-time without dedicated hardware.
         </p>
       </div>
 

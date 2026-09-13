@@ -29,7 +29,7 @@ function App() {
         <div className="container">
           <h3 className="text-cyan">From Cameras to Context.</h3>
           <p>
-            <strong>IBVAP</strong> transforms existing CCTV infrastructure into an intelligent, context-aware surveillance network designed to improve situational awareness and accelerate security response.
+            <strong>WatchGrid</strong> transforms existing CCTV infrastructure into an intelligent, context-aware surveillance network designed to improve situational awareness and accelerate security response.
           </p>
         </div>
       </footer>

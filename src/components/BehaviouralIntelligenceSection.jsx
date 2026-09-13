@@ -11,7 +11,7 @@ const BehaviouralIntelligenceSection = () => {
           <span className="text-cyan">Behaviour tells you what is changing.</span>"
         </h2>
         <p className="section-subtitle">
-          A single CCTV frame provides limited information. IBVAP analyzes sequences of movement over time to detect temporal behavioural risk escalation.
+          A single CCTV frame provides limited information. WatchGrid analyzes sequences of movement over time to detect temporal behavioural risk escalation.
         </p>
       </div>
 

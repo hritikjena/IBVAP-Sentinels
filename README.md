@@ -1,7 +1,7 @@
-# IBVAP Project Showcase Dashboard
+# WatchGrid Project Showcase Dashboard
 
 ## Overview
-The **IBVAP (Intelligent Border Video Analytics Platform)** Dashboard is a front-end showcase designed for hackathon presentations. It serves as a visual README to demonstrate how the platform transforms ordinary CCTV footage into actionable, context-aware intelligence using AI perception, tracking, and behavioural analytics.
+The **WatchGrid (Intelligent Border Video Analytics Platform)** Dashboard is a front-end showcase designed for hackathon presentations. It serves as a visual README to demonstrate how the platform transforms ordinary CCTV footage into actionable, context-aware intelligence using AI perception, tracking, and behavioural analytics.
 
 This project does **not** rely on a heavy backend; it is a purely front-end visualization engineered to convey the core concepts of the Sentinel pipeline efficiently.
 

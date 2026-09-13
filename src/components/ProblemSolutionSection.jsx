@@ -6,9 +6,9 @@ const ProblemSolutionSection = () => {
   return (
     <section className="problem-solution container">
       <div className="section-header">
-        <h2 className="section-title">Why IBVAP?</h2>
+        <h2 className="section-title">Why WatchGrid?</h2>
         <p className="section-subtitle">
-          Border-security forces deploy cameras across strategic locations, but raw video requires continuous manual observation. IBVAP changes the paradigm.
+          Border-security forces deploy cameras across strategic locations, but raw video requires continuous manual observation. WatchGrid changes the paradigm.
         </p>
       </div>
 
@@ -37,11 +37,11 @@ const ProblemSolutionSection = () => {
           </ul>
         </div>
 
-        {/* IBVAP */}
-        <div className="glass-panel comparison-card ibvap-card">
+        {/* WatchGrid */}
+        <div className="glass-panel comparison-card watchgrid-card">
           <div className="card-header">
             <ShieldAlert className="text-cyan" size={32} />
-            <h3 className="text-cyan">IBVAP</h3>
+            <h3 className="text-cyan">WatchGrid</h3>
             <span className="badge">Software-Defined</span>
           </div>
           

@@ -8,7 +8,7 @@ const ExplainableAlerts = () => {
       <div className="section-header">
         <h2 className="section-title">Explainable Alerts</h2>
         <p className="section-subtitle">
-          Instead of just flashing "HIGH RISK", IBVAP provides full context: WHAT happened, WHO was involved, WHERE, WHEN, and WHY the alert was triggered.
+          Instead of just flashing "HIGH RISK", WatchGrid provides full context: WHAT happened, WHO was involved, WHERE, WHEN, and WHY the alert was triggered.
         </p>
       </div>
 

@@ -8,7 +8,7 @@ const TemporalIntelligence = () => {
       <div className="section-header">
         <h2 className="section-title">Temporal Intelligence</h2>
         <p className="section-subtitle">
-          Based on SENTINEL technology, IBVAP maintains a temporal history of scenes rather than evaluating frames in isolation.
+          Based on SENTINEL technology, WatchGrid maintains a temporal history of scenes rather than evaluating frames in isolation.
         </p>
       </div>
 
@@ -43,7 +43,7 @@ const TemporalIntelligence = () => {
         <div className="glass-panel temporal-card">
           <h3>Event Timeline Memory</h3>
           <p className="text-muted">
-            IBVAP understands the sequence of events. A single frame of a person running might be normal, but running after loitering near a restricted zone escalates risk.
+            WatchGrid understands the sequence of events. A single frame of a person running might be normal, but running after loitering near a restricted zone escalates risk.
           </p>
           
           <div className="timeline-log mono">

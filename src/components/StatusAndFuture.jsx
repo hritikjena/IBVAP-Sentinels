@@ -8,7 +8,7 @@ const StatusAndFuture = () => {
       <div className="section-header">
         <h2 className="section-title">Prototype Status & Extensibility</h2>
         <p className="section-subtitle">
-          IBVAP is designed as a modular platform. Here is the current status of the hackathon prototype and planned future extensions.
+          WatchGrid is designed as a modular platform. Here is the current status of the hackathon prototype and planned future extensions.
         </p>
       </div>
 
