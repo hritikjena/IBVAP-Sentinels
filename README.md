@@ -60,3 +60,7 @@ The dashboard relies on local video assets for the demonstration section. These 
 - `inten_Risk.mp4` (9:16)
 
 *Note: The `VideoDemonstrations` component uses CSS `object-fit: contain` and a dynamic wrapper to ensure videos of any aspect ratio are displayed without cropping.*
+
+
+
+Website link: https://hritikjena.github.io/IBVAP-Sentinels/
