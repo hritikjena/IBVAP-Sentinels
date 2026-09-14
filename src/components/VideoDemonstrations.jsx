@@ -12,7 +12,8 @@ const videos = [
     description: 'A tracked person approaches and crosses a configured virtual restricted zone.',
     features: ['Person Tracking', 'Virtual Fence', 'Intrusion Alert'],
     metadata: '⚠ VIRTUAL FENCE INTRUSION | ENTITY: PERSON #17 | RISK: HIGH',
-    src: '/videos/virtual fence.mp4'
+    src: '/videos/virtual fence.mp4',
+    disclaimer: 'Publicly available videos'
   },
   {
     id: 'vehicle-tracking',
@@ -23,7 +24,8 @@ const videos = [
     description: 'Demonstrates detection, classification and tracking of vehicles in CCTV footage.',
     features: ['Vehicle Classification', 'Tracking ID', 'Movement Tracking'],
     metadata: 'CAR #04 | TRUCK #08 | MOTORCYCLE #12',
-    src: '/videos/Tracking Vehicles.mp4'
+    src: '/videos/Tracking Vehicles.mp4',
+    disclaimer: 'Our own data video'
   },
   {
     id: 'human-detection',
@@ -34,7 +36,8 @@ const videos = [
     description: 'Detects and maintains persistent tracking IDs for humans within the camera view.',
     features: ['Human Detection', 'Persistent Tracking'],
     metadata: 'PERSON #42 | PERSON #43',
-    src: '/videos/Person Tracking.mp4'
+    src: '/videos/Person Tracking.mp4',
+    disclaimer: 'Publicly available videos'
   },
   {
     id: 'intent-normal',
@@ -45,7 +48,8 @@ const videos = [
     description: 'Demonstrates normal movement without significant behavioural or contextual anomalies.',
     features: ['Person Detection', 'Stable Risk Level'],
     metadata: 'RISK: NORMAL | PERSONS: 2 | VEHICLES: 0',
-    src: '/videos/intent_normal.mp4'
+    src: '/videos/intent_normal.mp4',
+    disclaimer: 'Publicly available videos'
   },
   {
     id: 'intent-aggression',
@@ -56,18 +60,20 @@ const videos = [
     description: 'Demonstrates detection of aggressive activity involving a weapon (knife).',
     features: ['Weapon Detection', 'Aggression Detection', 'Motion Intensity'],
     metadata: 'RISK: CRITICAL | EVENT: AGGRESSION (WEAPON DETECTED)',
-    src: '/videos/inten_Risk.mp4'
+    src: '/videos/inten_Risk.mp4',
+    disclaimer: 'Our own data video'
   },
   {
     id: 'night-surveillance',
     title: 'Night-time Surveillance',
-    status: 'RISING RISK',
-    statusColor: 'text-red',
-    statusBg: 'bg-red',
-    description: 'Demonstrates low-light tracking with event detection including unusual vehicle stops and suspicious gatherings.',
-    features: ['Low Light Detection', 'Suspicious Gathering', 'Unusual Vehicle Stop'],
-    metadata: 'RISK: RISING (3.8) | PERSONS: 4 | VEHICLES: 4',
-    src: '/videos/Night Video.mp4'
+    status: 'Night Monitoring',
+    statusColor: 'text-cyan',
+    statusBg: 'bg-cyan',
+    description: 'Demonstrates low-light tracking with event detection.',
+    features: ['Low Light Detection'],
+    metadata: 'RISK: MONITORING | MULTIPLE PERSONS & VEHICLES',
+    src: '/videos/Night Video.mp4',
+    disclaimer: 'Publicly available videos'
   }
 ];
 
@@ -124,6 +130,12 @@ const VideoDemonstrations = () => {
               {activeVideo.features.map(f => (
                 <span key={f} className="feature-tag">{f}</span>
               ))}
+            </div>
+            
+            <div className="disclaimer-ticker-container">
+              <div className="disclaimer-ticker">
+                ⚠ DISCLAIMER: {activeVideo.disclaimer}
+              </div>
             </div>
           </div>
         </div>
