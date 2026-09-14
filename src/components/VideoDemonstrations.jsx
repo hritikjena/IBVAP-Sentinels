@@ -56,7 +56,17 @@ const videos = [
     description: 'Demonstrates detection of aggressive activity involving a weapon (knife).',
     features: ['Weapon Detection', 'Aggression Detection', 'Motion Intensity'],
     metadata: 'RISK: CRITICAL | EVENT: AGGRESSION (WEAPON DETECTED)',
-    src: '/videos/inten_Risk.mp4'
+  },
+  {
+    id: 'night-surveillance',
+    title: 'Night-time Surveillance',
+    status: 'RISING RISK',
+    statusColor: 'text-red',
+    statusBg: 'bg-red',
+    description: 'Demonstrates low-light tracking with event detection including unusual vehicle stops and suspicious gatherings.',
+    features: ['Low Light Detection', 'Suspicious Gathering', 'Unusual Vehicle Stop'],
+    metadata: 'RISK: RISING (3.8) | PERSONS: 4 | VEHICLES: 4',
+    src: '/videos/Night Video.mp4'
   }
 ];
 
