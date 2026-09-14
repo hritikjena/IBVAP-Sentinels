@@ -63,4 +63,5 @@ The dashboard relies on local video assets for the demonstration section. These 
 
 
 
-Website link: https://hritikjena.github.io/IBVAP-Sentinels/
+Website link: [https://hritikjena.github.io/IBVAP-Sentinels/](https://hritikjena.github.io/WatchGrid/)
+
