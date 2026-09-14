@@ -56,6 +56,7 @@ const videos = [
     description: 'Demonstrates detection of aggressive activity involving a weapon (knife).',
     features: ['Weapon Detection', 'Aggression Detection', 'Motion Intensity'],
     metadata: 'RISK: CRITICAL | EVENT: AGGRESSION (WEAPON DETECTED)',
+    src: '/videos/inten_Risk.mp4'
   },
   {
     id: 'night-surveillance',
